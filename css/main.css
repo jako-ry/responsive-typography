@@ -41,11 +41,13 @@ article header {
 article p {
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-top: 1.3rem;
   margin-bottom: 1.3rem;
 }
 
 article header p {
   font-style: italic;
+  margin-top: -1.3rem;
   margin-bottom: 1.3rem;
 }
 
@@ -86,6 +88,11 @@ blockquote {
     line-height: 1.4;
   }
 
+  article {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -95,12 +102,20 @@ blockquote {
     line-height: 1.5;
   }
 
+  article {
+    margin-left: 10%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  article {
+    margin-left: 20%;
   }
 
 }
